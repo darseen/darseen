@@ -14,6 +14,25 @@
 </p>
 <br/>
 
+<h3 align="left">Production-Ready Apps & Services</h3>
+<hr/>
+
+<h4>NPM Packages</h4>
+<ul>
+  <li><a href="https://github.com/darseen/amadeus-ts">amadeus-ts</a> — Node library for the Amadeus travel APIs written in TypeScript.</li>
+</ul>
+
+<h4>Docker Images</h4>
+<ul>
+  <li><a href="https://github.com/darseen/vaze">Vaze</a> — Self-Hosted file storage and hosting service.</li>
+</ul>
+
+<h4>Mobile Apps & Games</h4>
+<ul>
+  <li><a href="https://play.google.com/store/apps/details?id=com.darseen.KnowledgeWar">Knowledge War</a> — Available on Google Play.</li>
+</ul>
+<br/>
+
 <h3 align="left">Languages & Tools</h3>
 <hr/>
 <p align="center">
