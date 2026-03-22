@@ -37,7 +37,7 @@
 <hr/>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,cpp,nodejs,react,graphql,nextjs,nestjs,express,tailwind,postgres,mongodb,prisma,docker,kubernetes,aws,nginx,vercel,git,arch&perline=20" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=ts,js,cpp,nodejs,react,graphql,nextjs,nestjs,express,tailwind,postgres,mongodb,docker,kubernetes,aws,nginx,git,arch&perline=9" alt="My Skills" />
   </a>
 </p>
 
