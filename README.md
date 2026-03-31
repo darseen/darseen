@@ -20,6 +20,7 @@
 <h4>NPM Packages</h4>
 <ul>
   <li><a href="https://github.com/darseen/amadeus-ts">amadeus-ts</a> — Node library for the Amadeus travel APIs written in TypeScript.</li>
+  <li><a href="https://www.npmjs.com/package/@darseen/vaze">@darseen/vaze</a> — The official JavaScript/TypeScript SDK for Vaze.</li>
 </ul>
 
 <h4>Docker Images</h4>
