@@ -19,7 +19,7 @@
 
 <h4>NPM Packages</h4>
 <ul>
-  <li><a href="https://github.com/darseen/amadeus-ts">amadeus-ts</a> — Node library for the Amadeus travel APIs written in TypeScript.</li>
+  <li><a href="https://www.npmjs.com/package/amadeus-ts">amadeus-ts</a> — Node library for the Amadeus travel APIs written in TypeScript.</li>
   <li><a href="https://www.npmjs.com/package/@darseen/vaze">@darseen/vaze</a> — The official JavaScript/TypeScript SDK for Vaze.</li>
   <li><a href="https://www.npmjs.com/package/@darseen/vrd">@darseen/vrd</a> — Verify Railway Domain (vrd).</li>
 </ul>
@@ -33,7 +33,7 @@
 <h4>Mobile Apps & Games</h4>
 <ul>
   <li><a href="https://play.google.com/store/apps/details?id=com.darseen.virtualdomination">Virtual DOMination</a> — Code duels in JS, Python, C, C++ and Rust. Pick a faction, take the map.</li>
-  <li><a href="https://play.google.com/store/apps/details?id=com.darseen.KnowledgeWar">Knowledge War</a> — Available on Google Play.</li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.darseen.KnowledgeWar">Knowledge War</a> — Real-time Arabic quiz game with endless solo runs and live 1v1 duels.</li>
 </ul>
 <br/>
 
