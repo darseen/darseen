@@ -32,6 +32,7 @@
 
 <h4>Mobile Apps & Games</h4>
 <ul>
+  <li>Virtual DOMination — Code duels in JS, Python, C, C++ and Rust. Pick a faction, take the map. In development.</li>
   <li><a href="https://play.google.com/store/apps/details?id=com.darseen.KnowledgeWar">Knowledge War</a> — Available on Google Play.</li>
 </ul>
 <br/>
