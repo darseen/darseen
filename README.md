@@ -8,8 +8,8 @@
   <a href="https://linkedin.com/in/mohammed-alsammarrai-bb77b0264">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://alsammarrai.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  <a href="https://darseen.dev">
+    <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
 </p>
 <br/>
