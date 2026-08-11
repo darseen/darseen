@@ -60,6 +60,5 @@
 </p>
 
 <p align="center">
-  <!-- uncomment after the Trophy card workflow has run once -->
-  <!-- <img src="https://raw.githubusercontent.com/darseen/darseen/main/assets/trophies.svg" alt="darseen's trophies" /> -->
+  <img src="https://raw.githubusercontent.com/darseen/darseen/main/assets/trophies.svg" alt="darseen's trophies" />
 </p>
