@@ -51,7 +51,7 @@
 <hr/>
 <p align="center">
   <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/assets/streak.svg" alt="darseen's streak" />
-  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/profile-summary-card-output/onedark/3-stats.svg" alt="darseen's stats" />
+  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/profile-summary-card-output/onedark/4-productive-time.svg" alt="darseen's productive time" />
 </p>
 
 <p align="center">
@@ -60,6 +60,6 @@
 </p>
 
 <p align="center">
-  <!-- uncomment after the Achievements card workflow has run once -->
-  <!-- <img src="https://raw.githubusercontent.com/darseen/darseen/main/assets/achievements.svg" alt="darseen's achievements" /> -->
+  <!-- uncomment after the Trophy card workflow has run once -->
+  <!-- <img src="https://raw.githubusercontent.com/darseen/darseen/main/assets/trophies.svg" alt="darseen's trophies" /> -->
 </p>
