@@ -50,12 +50,16 @@
 <h3 align="left">GitHub Stats</h3>
 <hr/>
 <p align="center">
-  <!-- <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=darseen&show_icons=true&theme=onedark&locale=en&hide_border=true&layout=compact" alt="Top Languages" /> -->
-  <img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=darseen&hide_border=true&theme=onedark" alt="darseen's streak" />
+  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/assets/streak.svg" alt="darseen's streak" />
+  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/profile-summary-card-output/onedark/3-stats.svg" alt="darseen's stats" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://trophygh.kolioaris.xyz/?username=darseen&margin-w=15&theme=onedark" alt="darseen's trophies" />
-  </a>
+  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/profile-summary-card-output/onedark/2-most-commit-language.svg" alt="Top languages by commit" />
+  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/profile-summary-card-output/onedark/1-repos-per-language.svg" alt="Top languages by repo" />
+</p>
+
+<p align="center">
+  <!-- uncomment after the Achievements card workflow has run once -->
+  <!-- <img src="https://raw.githubusercontent.com/darseen/darseen/main/assets/achievements.svg" alt="darseen's achievements" /> -->
 </p>

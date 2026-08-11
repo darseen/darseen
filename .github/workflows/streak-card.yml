@@ -1,0 +1,30 @@
+name: Streak card
+
+on:
+  schedule:
+    - cron: "37 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch streak SVG
+        run: |
+          curl -sSfL --max-time 120 --retry 5 --retry-all-errors --retry-delay 15 \
+            -o streak.new.svg \
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=onedark"
+          # never commit an error page over a good card
+          grep -q "Current Streak" streak.new.svg
+          mv streak.new.svg assets/streak.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          git diff --staged --quiet || (git commit -m "chore: refresh streak card" && git push)
