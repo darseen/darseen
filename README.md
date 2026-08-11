@@ -55,10 +55,5 @@
 </p>
 
 <p align="center">
-  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/profile-summary-card-output/onedark/2-most-commit-language.svg" alt="Top languages by commit" />
-  <img height="150" src="https://raw.githubusercontent.com/darseen/darseen/main/profile-summary-card-output/onedark/1-repos-per-language.svg" alt="Top languages by repo" />
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/darseen/darseen/main/assets/trophies.svg" alt="darseen's trophies" />
 </p>
