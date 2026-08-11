@@ -26,8 +26,8 @@
 
 <h4>Docker Images</h4>
 <ul>
-  <li><a href="https://github.com/darseen/vaze">Vaze</a> — Self-Hosted File storage and hosting service.</li>
-  <li><a href="https://github.com/darseen/pgbr">PGBR</a> — Postgres Backup & Restore service w/ automated backups</li>
+  <li><a href="https://vaze-docs.netlify.app/">Vaze</a> — Self-Hosted File storage and hosting service.</li>
+  <li><a href="https://pgbr-docs.netlify.app/">PGBR</a> — Postgres Backup & Restore service w/ automated backups</li>
 </ul>
 
 <h4>Mobile Apps & Games</h4>
