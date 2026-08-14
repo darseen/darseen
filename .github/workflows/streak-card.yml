@@ -5,6 +5,10 @@ on:
     - cron: "37 3 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: profile-card-push
+  cancel-in-progress: false
+
 jobs:
   streak:
     runs-on: ubuntu-latest
@@ -27,4 +31,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/streak.svg
-          git diff --staged --quiet || (git commit -m "chore: refresh streak card" && git push)
+          if git diff --staged --quiet; then exit 0; fi
+          git commit -m "chore: refresh streak card"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase --autostash origin main
+          done
+          exit 1
