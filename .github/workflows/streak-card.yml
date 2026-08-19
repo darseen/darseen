@@ -19,12 +19,18 @@ jobs:
 
       - name: Fetch streak SVG
         run: |
-          curl -sSfL --max-time 120 --retry 5 --retry-all-errors --retry-delay 15 \
-            -o streak.new.svg \
-            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=onedark"
-          # never commit an error page over a good card
-          grep -q "Current Streak" streak.new.svg
-          mv streak.new.svg assets/streak.svg
+          # the service serves error cards with HTTP 200, so retry on content
+          for attempt in 1 2 3 4 5; do
+            if curl -sSfL --max-time 120 -o streak.new.svg \
+                 "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=onedark" \
+               && grep -q "Current Streak" streak.new.svg; then
+              mv streak.new.svg assets/streak.svg
+              exit 0
+            fi
+            echo "attempt $attempt: no valid streak card"
+            if [ "$attempt" -lt 5 ]; then sleep 30; fi
+          done
+          echo "::warning::streak-stats returned no valid card after 5 attempts; keeping the existing one"
 
       - name: Commit if changed
         run: |
