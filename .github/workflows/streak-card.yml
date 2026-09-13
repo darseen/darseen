@@ -22,7 +22,7 @@ jobs:
           # the service serves error cards with HTTP 200, so retry on content
           for attempt in 1 2 3 4 5; do
             if curl -sSfL --max-time 120 -o streak.new.svg \
-                 "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=onedark" \
+                 "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=onedark&mode=weekly" \
                && grep -q "Current Streak" streak.new.svg; then
               mv streak.new.svg assets/streak.svg
               exit 0
