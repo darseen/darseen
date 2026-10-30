@@ -30,6 +30,7 @@
 <ul>
   <li><a href="https://play.google.com/store/apps/details?id=com.darseen.virtualdomination">Virtual DOMination</a>: Code duels in JS, Python, C, C++ and Rust. Pick a faction, take the map.</li>
   <li><a href="https://play.google.com/store/apps/details?id=com.darseen.KnowledgeWar">Knowledge War</a>: Real-time Arabic quiz game with endless solo runs and live 1v1 duels.</li>
+  <li><a href="https://play.google.com/store/apps/details?id=dev.darseen.vaze">Vaze</a>: Mobile client for Vaze. Browse and manage files on your self-hosted server.</li>
 </ul>
 <br/>
 
